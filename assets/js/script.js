@@ -4,25 +4,25 @@ let buttons = document.querySelectorAll(".button");
 let body = document.querySelector("body");
 
 // Solution 1 with IF Else
-buttons.forEach( (button)=> {
-  button.addEventListener("click", (e)=>{
-    if(e.target.id === "gray"){
-      body.style.backgroundColor = e.target.id;
-    }else if(e.target.id === "yellow"){
-      body.style.backgroundColor = e.target.id;
-    }else if(e.target.id === "white"){
-      body.style.backgroundColor = e.target.id;
-    }else if(e.target.id === "black"){
-      body.style.backgroundColor = e.target.id;
-    }else if(e.target.id === "BlueViolet"){
-      body.style.backgroundColor = e.target.id;
-    }else if(e.target.id === "DarkCyan"){
-      body.style.backgroundColor = e.target.id;
-    } else {
-      console.log("Color not Defined")
-    }
-  })
-} )
+// buttons.forEach( (button)=> {
+//   button.addEventListener("click", (e)=>{
+//     if(e.target.id === "gray"){
+//       body.style.backgroundColor = e.target.id;
+//     }else if(e.target.id === "yellow"){
+//       body.style.backgroundColor = e.target.id;
+//     }else if(e.target.id === "white"){
+//       body.style.backgroundColor = e.target.id;
+//     }else if(e.target.id === "black"){
+//       body.style.backgroundColor = e.target.id;
+//     }else if(e.target.id === "BlueViolet"){
+//       body.style.backgroundColor = e.target.id;
+//     }else if(e.target.id === "DarkCyan"){
+//       body.style.backgroundColor = e.target.id;
+//     } else {
+//       console.log("Color not Defined")
+//     }
+//   })
+// } )
 
 // Solution 2 with Switch Statement
 buttons.forEach( (button) => {
@@ -59,15 +59,15 @@ buttons.forEach( (button) => {
 })
 
 // Solution 3 without IF-ELSE and SWITCH CASE
-buttons.forEach( (button) => {
-  button.addEventListener("click", function(e){
-    body.style.backgroundColor = e.target.id;
-  })
-})
+// buttons.forEach( (button) => {
+//   button.addEventListener("click", function(e){
+//     body.style.backgroundColor = e.target.id;
+//   })
+// })
 
 // Solution 4 on HOVER
-buttons.forEach( (button) => {
-  button.addEventListener("mouseover", function(e){
-    body.style.backgroundColor = e.target.id;
-  })
-})
+// buttons.forEach( (button) => {
+//   button.addEventListener("mouseover", function(e){
+//     body.style.backgroundColor = e.target.id;
+//   })
+// })
