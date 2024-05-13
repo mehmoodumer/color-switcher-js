@@ -1,0 +1,27 @@
+.title h1 {
+  font-weight: 700;
+}
+p.desc { font-size: 1.2rem;font-weight: 500; }
+div.allButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button.button {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #ddd;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#gray {
+  background-color: gray;
+}
+#yellow { background-color: yellow; }
+#white { background-color: white; }
+#black { background-color: black; }
+#BlueViolet { background-color: BlueViolet; }
+#DarkCyan { background-color: DarkCyan; }
